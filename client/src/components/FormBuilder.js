@@ -23,7 +23,7 @@ const FormBuilder = () => {
   };
 
   const saveForm = () => {
-    axios.post('http://localhost:5000/forms', { title, elements })
+    axios.post('https://form-builder-backend-5rcv.onrender.com/forms', { title, elements })
       .then((response) => {
         console.log(response.data);
         alert("Form Saved Successfully");

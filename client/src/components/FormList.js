@@ -15,7 +15,7 @@ const FormList = () => {
   }, []);
 
   const fetchForms = () => {
-    axios.get('http://localhost:5000/forms')
+    axios.get('https://form-builder-backend-5rcv.onrender.com/forms')
       .then((response) => {
         setForms(response.data);
       })

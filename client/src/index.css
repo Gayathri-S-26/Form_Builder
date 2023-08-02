@@ -1,7 +1,7 @@
 body {
   margin: 0;
   color:white;
-  background-color: #B87333;
+  background: url("https://thumbs.gfycat.com/ConcernedNaughtyDanishswedishfarmdog-max-1mb.gif") repeat;
   font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,7 +16,7 @@ code {
 button{
   background-color: white;
   border: none;
-  color: #B87333;
+  color: #02023e;
   padding: 15px;
   border-radius: 8px;
   text-align: center;
@@ -28,9 +28,9 @@ button{
 }
 
 button:hover{
-  background-color: black;
-  border: none;
-  color: #B87333;
+  background-color: #02023e;
+  border: 2px solid white;
+  color: white;
   padding: 15px;
   border-radius: 8px;
   text-align: center;

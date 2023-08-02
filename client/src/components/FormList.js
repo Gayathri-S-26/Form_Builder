@@ -25,7 +25,7 @@ const FormList = () => {
   };
 
   const handleFormPreview = (form) => {
-    alert("See below for the Preview");
+    alert("Scroll down for the Preview");
     setPreviewForm(form);
   };
 
